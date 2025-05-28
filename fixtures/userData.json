@@ -1,0 +1,29 @@
+{
+    "userFail": {
+        "firstName": "12",
+        "lastName": "34",
+        "username": "chdguhscgsducgsuydcgsuydcgus",
+        "password": "1234",
+        "passwordOptional": "00002"
+    },
+
+    "userSuccess": {
+        "firstName": "Jose",
+        "lastName": "Carlos",
+        "username": "josecarlos01",
+        "usernameOptional": "Valéria",
+        "password": "josecarlos123",
+        "confirmPassword": "josecarlos123"
+    },
+
+    "bankInfos": {
+        "bankName": "Banco do povo",
+        "routingNumber": "banco1234",
+        "accountNumber": "34534535345"
+    },
+
+    "paymentInfos": {
+        "amount": 250,
+        "note": "Pagamento enviado"
+    }
+}
