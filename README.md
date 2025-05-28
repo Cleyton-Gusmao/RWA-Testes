@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Este repositório contém meus testes automatizados usando Cypress para o **Real World App (RWA)[Texto que aparece](URL-do-link)**, um app de exemplo criado pela equipe do Cypress para praticar testes em cenários reais. Os testes aqui foram desenvolvidos como parte do curso **Guardião da Qualidade**.
+Este repositório contém meus testes automatizados usando Cypress para o **Real World App (RWA)**, um app de exemplo criado pela equipe do Cypress para praticar testes em cenários reais. Os testes aqui foram desenvolvidos como parte do curso **Guardião da Qualidade**.
 
 Repo do RWA: https://github.com/cypress-io/cypress-realworld-app
 
