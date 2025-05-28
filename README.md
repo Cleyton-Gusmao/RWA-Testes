@@ -26,17 +26,6 @@ Para manter o foco nos meus testes e facilitar o entendimento, incluí apenas as
 
 **Nota:** Removi outras pastas e testes originais do RWA que não foram usados neste portfólio.
 
-
-## Pré-requisitos
-
-Este projeto requer que o Node.js esteja instalado em sua máquina. Consulte o arquivo .node-version para obter a versão exata.
-
-O Yarn Classic também é necessário. Após instalar o Node.js, execute o seguinte para instalar o módulo npm yarn (Classic - versão 1) globalmente.
-
-```bash
-npm install yarn@latest -g
-```
-
 ## Como rodar os testes  
 
 **Pré-requisito:** você precisa clonar o projeto original do RWA, pois os testes dependem da estrutura e da aplicação original.  
@@ -66,14 +55,16 @@ As pastas que disponibilizei são:
 
 Para adicionar, copie essas pastas e cole dentro da pasta cypress do projeto clonado, respeitando essa estrutura:  
 
+```
 cypress/  
 ├── fixtures/  
 ├── support/  
 │   ├── auth-provider-commands  
 │   ├── pages/  
 │   └── utils/  
-└── tests/  
+└── tests/
     └── E2E/  
+```
 
 4. **Instale as dependências:**
 
