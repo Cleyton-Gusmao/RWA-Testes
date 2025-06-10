@@ -1,15 +1,12 @@
-# Real World App - Testes Automatizados (Portfólio)
+# Real World App - Testes Automatizados com Cypress (Portfólio)
 
 ## Sobre o Projeto
 
-Este repositório contém meus testes automatizados usando Cypress para o **Real World App (RWA)**, um app de exemplo criado pela equipe do Cypress para praticar testes em cenários reais. Os testes aqui foram desenvolvidos como parte do curso **Guardião da Qualidade**.
-
-Repo do RWA: https://github.com/cypress-io/cypress-realworld-app
-
+Este repositório contém meus testes automatizados usando Cypress para o [Repositório oficial do RWA](https://github.com/cypress-io/cypress-realworld-app), um app de exemplo criado pela equipe do Cypress para praticar testes em cenários reais.
 
 ## Objetivo
 
-O objetivo deste projeto é demonstrar a criação e automação de casos de teste para funcionalidades importantes do RWA, como:
+Este projeto demonstra a criação e automação de casos de teste para funcionalidades chave do RWA, incluindo:
 
 - Login e Registro de Usuário  
 - Envio de Dinheiro  
@@ -24,17 +21,18 @@ Para manter o foco nos meus testes e facilitar o entendimento, incluí apenas as
 - `support/utils/` — Funções auxiliares para simplificar lógicas repetidas nos testes.  
 - `tests/E2E/` — Meus testes end-to-end para as funcionalidades citadas.
 
-**Nota:** Removi outras pastas e testes originais do RWA que não foram usados neste portfólio.
+> *Foram removidas pastas e testes originais do RWA que não são utilizados neste projeto.*
 
-## Como rodar os testes  
+## Como rodar os testes
 
-**Pré-requisito:** você precisa clonar o projeto original do RWA, pois os testes dependem da estrutura e da aplicação original.  
+**Pré-requisito:**  
+ Este repositório contém apenas os testes automatizados. Para executar os testes, é necessário clonar o repositório oficial do Real World App (RWA) e seguir os passos para instalação e configuração da aplicação. Em seguida, copie as pastas deste repositório para o diretório `cypress/` do projeto RWA.
 
-1. **Clone o projeto oficial do RWA e siga:**
-
+1. Clone o projeto oficial do RWA:
 ```bash
 git clone https://github.com/cypress-io/cypress-realworld-app
 ```
+
 2. **Siga as instruções do README do projeto:**
 
 Dentro da pasta do projeto, você encontrará um arquivo README.md com todas as orientações para instalar, configurar e rodar a aplicação localmente.
@@ -66,20 +64,19 @@ cypress/
     └── E2E/  
 ```
 
-4. **Instale as dependências:**
+5. **Navegue até o diretório do projeto**
+```bash
+cd cypress-realworld-app
+```
+   
+6. **Instale as dependências:**
 
 ```bash
-npm install
+yarn install
 ```
 
-5. **Execute os testes:**
+7. **Execute os testes:**
 
 ```bash
 npx cypress open
-```
-
-Ou
-
-```bash
-npx cypress run
 ```
